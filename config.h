@@ -28,5 +28,10 @@
 #define SPLIT_HAND_PIN GP29
 #define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
 
-#define RGBLIGHT_SPLIT
-#define RGBLED_SPLIT { 1, 1 }
+#define RGBLIGHT_DEFAULT_HUE 150
+#define RGBLIGHT_DEFAULT_SAT 100
+#define RGBLIGHT_DEFAULT_VAL 50
+
+// Tap-hold configuration for home row mods.
+#define TAPPING_TERM 175
+#define PERMISSIVE_HOLD
